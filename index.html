@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <meta name="theme-color" content="#54218a" />
+  <meta name="description" content="WordMaster Academy — learn new English words through playful games, flashcards, and listening adventures." />
+  <title>WordMaster Academy — Learn New Words!</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="page-sparkle sparkle-one" aria-hidden="true">✦</div>
+  <div class="page-sparkle sparkle-two" aria-hidden="true">✧</div>
+  <header class="topbar">
+    <button class="brand" id="brandHome" aria-label="Go to home">
+      <span class="brand-mark"><span>W</span><i>✦</i></span>
+      <span class="brand-copy"><strong>WordMaster</strong><small>ACADEMY</small></span>
+    </button>
+    <nav class="top-nav" aria-label="Main navigation">
+      <button class="nav-link active" data-view="home">Home</button>
+      <button class="nav-link" data-view="vocabulary">Vocabulary</button>
+      <button class="nav-link" data-view="games">Mini-games</button>
+      <button class="nav-link" data-view="progress">My progress</button>
+      <button class="nav-link" data-view="streak">🔥 Streak</button>
+    </nav>
+    <div class="top-stats">
+      <button class="stat-pill streak-pill" id="streakShortcut" title="Open daily streak" aria-label="Open daily streak menu"><span id="headerFlame">🔥</span><strong id="headerStreak">0</strong></button>
+      <div class="stat-pill coin-pill" title="Coins"><span>🪙</span><strong id="headerCoins">0</strong></div>
+      <button class="sound-toggle" id="soundToggle" aria-label="Toggle sound" title="Sound on">🔊</button>
+      <button class="avatar-button" id="profileButton" aria-label="Open profile">🧒</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="heroSection">
+      <div class="hero-heading">
+        <div class="tiny-label"><span class="tiny-dot"></span> YOUR ENGLISH ADVENTURE STARTS HERE</div>
+        <h1>Learn New <span>Words!</span><span class="title-star star-a">✦</span><span class="title-star star-b">✧</span></h1>
+        <p>Listen, match, and play your way to a bigger vocabulary.</p>
+      </div>
+
+      <div class="classroom-stage" id="classroomStage">
+        <div class="scene-shadow"></div>
+        <div class="classroom-frame">
+          <div class="stage-topline">
+            <button class="back-chip" id="backToHome" aria-label="Back to home">‹ <span>Back</span></button>
+            <div class="stage-progress" title="Daily learning progress"><span id="heroProgressFill"></span></div>
+            <span class="stage-level" id="heroLevel">LV 1</span>
+          </div>
+          <div class="scene-window" aria-label="Animated cartoon classroom with three students">
+            <img src="assets/classroom.svg" alt="A colorful cartoon classroom with three cheerful students" class="classroom-art" />
+            <div class="scene-vignette"></div>
+            <div class="speech-bubble" id="characterMessage">Ready to learn?</div>
+            <div class="scene-controls">
+              <button class="round-game-control" id="sceneListen" aria-label="Listen to a word" title="Listen to a word">🔊</button>
+              <button class="round-game-control" id="scenePlay" aria-label="Start listening game" title="Start listening game">▶</button>
+              <button class="round-game-control" id="sceneFlashcards" aria-label="Open flashcards" title="Open flashcards">🗂️</button>
+            </div>
+          </div>
+        </div>
+        <button class="word-sticker sticker-cash" data-word="cash" aria-label="Learn the word cash"><span class="sticker-art">💵</span><strong>cash</strong></button>
+        <button class="word-sticker sticker-eat" data-word="eat" aria-label="Learn the word eat"><span class="sticker-art">😋</span><strong>eat</strong></button>
+        <button class="word-sticker sticker-milk" data-word="milk" aria-label="Learn the word milk"><span class="sticker-art">🥛</span><strong>milk</strong></button>
+        <button class="word-sticker sticker-friend" data-word="friend" aria-label="Learn the word friend"><span class="sticker-art">🧒🏻🧒🏽</span><strong>friend</strong></button>
+        <button class="instruction-sticker" id="listenMatchShortcut"><span>Listen and match!</span><b>↗</b></button>
+      </div>
+
+      <div class="hero-underbar">
+        <div class="mission-mini">
+          <span class="mission-icon">🎯</span>
+          <div><strong>Today's little mission</strong><small id="missionSummary">Learn 5 words and earn a star!</small></div>
+        </div>
+        <button class="primary-button" id="continueLearning">Let's play <span>→</span></button>
+      </div>
+    </section>
+
+    <section class="app-section" id="appSection">
+      <div class="section-heading">
+        <div><div class="eyebrow">PICK YOUR NEXT ADVENTURE</div><h2 id="sectionTitle">What shall we learn today?</h2></div>
+        <div class="mini-level"><span class="level-icon">⭐</span><div><small>YOUR LEVEL</small><strong id="levelLabel">Word Explorer</strong></div></div>
+      </div>
+      <div class="quick-stats" id="quickStats">
+        <div class="quick-stat xp-stat"><span class="quick-stat-icon">⚡</span><div><small>Total XP</small><strong id="xpValue">0</strong></div><span class="stat-decoration">✦</span></div>
+        <div class="quick-stat word-stat"><span class="quick-stat-icon">📚</span><div><small>Words learned</small><strong id="wordsLearnedValue">0</strong></div><span class="stat-decoration">✧</span></div>
+        <div class="quick-stat accuracy-stat"><span class="quick-stat-icon">🎯</span><div><small>Accuracy</small><strong id="accuracyValue">—</strong></div><span class="stat-decoration">✦</span></div>
+      </div>
+      <div class="content-grid">
+        <section class="main-content-panel" id="workspace" aria-live="polite"></section>
+        <aside class="right-rail" id="sideRail">
+          <section class="rail-card daily-card">
+            <div class="rail-title"><span>🌈</span><h3>Daily quests</h3><span class="quest-count" id="questCount">0/3</span></div>
+            <p class="rail-subtitle">Tiny steps, big progress!</p>
+            <div class="quest-list" id="questList"></div>
+          </section>
+          <section class="rail-card badge-card">
+            <div class="rail-title"><span>🏆</span><h3>Recent badges</h3></div>
+            <div class="badge-row" id="badgeRow"><div class="badge-medal locked">⭐</div><div class="badge-medal locked">🎧</div><div class="badge-medal locked">📖</div><div class="badge-medal locked">🔥</div></div>
+            <p class="badge-caption" id="badgeCaption">Play games to collect your first badges.</p>
+          </section>
+          <section class="rail-card reminder-card">
+            <div class="reminder-illustration">🦊<span>✦</span></div><div><strong>Word of the day</strong><p>Small practice every day makes you a word wizard!</p><button class="text-button" id="wordOfDayButton">Meet today's word →</button></div>
+          </section>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <nav class="mobile-dock" aria-label="Mobile navigation">
+    <button class="dock-item active" data-view="home"><span>🏠</span><small>Home</small></button>
+    <button class="dock-item" data-view="vocabulary"><span>📚</span><small>Words</small></button>
+    <button class="dock-play" data-view="games" aria-label="Open games"><span>▶</span></button>
+    <button class="dock-item" data-view="streak"><span id="dockFlame">🔥</span><small>Streak</small></button>
+    <button class="dock-item" data-view="progress"><span>🏆</span><small>Progress</small></button>
+  </nav>
+
+  <div class="modal-backdrop" id="modalBackdrop" hidden>
+    <section class="modal-card" id="modalCard" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button class="modal-close" id="modalClose" aria-label="Close dialog">×</button>
+      <div id="modalContent"></div>
+    </section>
+  </div>
+  <div class="toast-stack" id="toastStack" aria-live="polite"></div>
+  <footer class="footer"><span class="footer-mark">W✦</span><span>WordMaster Academy</span><span class="footer-dot">•</span><span>Learn New Words, Play Every Day!</span><button id="resetProgress">Reset demo progress</button></footer>
+  <script src="app.js"></script>
+</body>
+</html>
