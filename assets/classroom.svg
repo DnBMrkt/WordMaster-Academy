@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 600" role="img" aria-labelledby="title desc">
+<title id="title">WordMaster Academy classroom</title><desc id="desc">A cheerful, sunlit classroom with bookshelves, chalkboard, windows and three cartoon students waving.</desc>
+<defs>
+ <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff1d8"/><stop offset="1" stop-color="#e8c89f"/></linearGradient>
+ <linearGradient id="floor" x1="0" y1="0" x2="0.2" y2="1"><stop stop-color="#b97a45"/><stop offset="1" stop-color="#81502f"/></linearGradient>
+ <linearGradient id="board" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#648c68"/><stop offset="1" stop-color="#315c49"/></linearGradient>
+ <linearGradient id="windowSky" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#b4e6f2"/><stop offset="1" stop-color="#e7f3c8"/></linearGradient>
+ <linearGradient id="purple" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#7645ad"/><stop offset="1" stop-color="#4a1d7a"/></linearGradient>
+ <radialGradient id="skin"><stop stop-color="#ffd9b1"/><stop offset="1" stop-color="#eaa276"/></radialGradient>
+ <filter id="shadow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="9"/></filter>
+ <filter id="soft"><feDropShadow dx="0" dy="5" stdDeviation="4" flood-color="#4d2a35" flood-opacity=".18"/></filter>
+ <pattern id="wood" width="170" height="70" patternUnits="userSpaceOnUse"><rect width="170" height="70" fill="#ac6d3c"/><path d="M0 14H170M0 48H170M38 0V14M120 14V48M76 48V70" stroke="#6e432b" stroke-width="3" opacity=".32"/><path d="M10 24q23-8 43 0M95 56q25-8 50 0" stroke="#e5a56c" stroke-width="2" opacity=".28" fill="none"/></pattern>
+</defs>
+<!-- back wall -->
+<rect width="1200" height="600" fill="url(#wall)"/>
+<path d="M0 0H1200V385L0 420Z" fill="#f6dfbd"/>
+<path d="M0 0L1200 0L1200 36L0 66Z" fill="#fff2db" opacity=".65"/>
+<!-- little bunting -->
+<path d="M300 54Q600 108 910 42" fill="none" stroke="#9e5a85" stroke-width="4" opacity=".7"/>
+<g stroke="#fff" stroke-width="2">
+ <path d="M342 61l17 3-5 31z" fill="#ed7c82"/><path d="M390 71l17 3-4 31z" fill="#ffcf56"/><path d="M440 79l18 0-8 31z" fill="#52c4ad"/><path d="M493 86l18 0-9 31z" fill="#9471cd"/><path d="M548 91l18 0-9 31z" fill="#ff9169"/><path d="M603 91l18-1-7 32z" fill="#56c0d3"/><path d="M658 84l18-3-3 31z" fill="#ffcf56"/><path d="M711 75l18-3-1 31z" fill="#65bd88"/><path d="M764 63l18-4 2 31z" fill="#f18a9b"/><path d="M815 49l18-5 6 30z" fill="#9572c8"/>
+</g>
+<!-- left bookcase -->
+<g><path d="M35 95L235 76L244 417L39 432Z" fill="#9a5934" stroke="#704027" stroke-width="8"/><path d="M48 106L222 90L230 405L54 418Z" fill="#c7834d"/>
+ <path d="M47 181L227 164M49 257L229 238M51 335L231 314" stroke="#784526" stroke-width="11"/><path d="M54 179L225 162M56 255L227 237M58 333L229 313" stroke="#e1a16a" stroke-width="5"/>
+ <g stroke="#f8e5bf" stroke-width="3"><path d="M67 117l18-2 4 58-18 2z" fill="#5e9b76"/><path d="M91 113l20-2 5 62-19 2z" fill="#edaa45"/><path d="M119 111l17-2 4 62-18 1z" fill="#8760ab"/><path d="M146 108l23-2 4 63-21 2z" fill="#e77875"/><path d="M178 104l18-2 4 64-17 1z" fill="#59a9cc"/><path d="M69 195l22-2 3 53-22 3z" fill="#f4d66d"/><path d="M98 192l17-2 4 58-17 1z" fill="#4d9c8e"/><path d="M125 189l21-2 2 60-20 1z" fill="#df8066"/><path d="M154 187l18-2 3 60-17 1z" fill="#5e75b6"/><path d="M183 184l24-2 3 62-21 2z" fill="#f1c359"/><path d="M69 271l18-2 3 57-17 1z" fill="#9674c4"/><path d="M96 268l23-2 3 59-21 2z" fill="#e77875"/><path d="M128 265l18-2 4 63-17 1z" fill="#58b8a3"/><path d="M155 262l22-2 4 62-21 1z" fill="#e9c158"/><path d="M186 258l18-2 3 63-17 1z" fill="#5b9dc1"/></g>
+</g>
+<!-- wall posters -->
+<g transform="translate(270 108) rotate(-3)"><rect width="90" height="115" rx="5" fill="#fff8df" stroke="#dfa45f" stroke-width="7"/><path d="M15 28h60M15 38h45" stroke="#8c72b1" stroke-width="4" stroke-linecap="round"/><circle cx="45" cy="72" r="22" fill="#64c7ad"/><path d="M33 76q12-24 24 0" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round"/><circle cx="45" cy="60" r="5" fill="#fff"/></g>
+<g transform="translate(270 247) rotate(3)"><rect width="87" height="108" rx="5" fill="#fff8df" stroke="#dfa45f" stroke-width="7"/><path d="M16 23h52" stroke="#e98980" stroke-width="5" stroke-linecap="round"/><path d="M21 46l21-13 24 15-8 27H27z" fill="#ffd35b" stroke="#9164a4" stroke-width="3"/><circle cx="42" cy="53" r="5" fill="#fff"/></g>
+<!-- right windows -->
+<g><rect x="902" y="77" width="255" height="260" rx="6" fill="#8d593c" stroke="#9d633c" stroke-width="12"/><rect x="919" y="94" width="221" height="226" fill="url(#windowSky)"/><path d="M1029 94V320M919 209H1140" stroke="#fff0d0" stroke-width="12"/><path d="M920 263Q957 224 991 255T1053 249T1140 240V320H920Z" fill="#8cc88a"/><path d="M926 228q20-56 38 0M1080 236q20-72 37 0" stroke="#4d9467" stroke-width="12" fill="none" stroke-linecap="round"/><circle cx="1103" cy="135" r="25" fill="#ffe28b" opacity=".9"/><rect x="891" y="68" width="275" height="20" rx="5" fill="#ce9363"/></g>
+<!-- chalkboard -->
+<g><path d="M378 115L841 103L849 287L384 300Z" fill="#98603c" stroke="#75422c" stroke-width="12"/><path d="M393 129L827 118L834 272L400 285Z" fill="url(#board)"/><path d="M418 152l205-6" stroke="#e9f0cd" stroke-width="4" stroke-linecap="round" opacity=".7"/><text x="418" y="184" font-family="Trebuchet MS, sans-serif" font-size="27" font-weight="bold" fill="#fcf4d7" transform="rotate(-1 418 184)">Welcome to class!</text><path d="M424 208q22-13 44 0t44 0t44 0" fill="none" stroke="#e8f1ce" stroke-width="4" stroke-linecap="round"/><text x="419" y="244" font-family="Trebuchet MS, sans-serif" font-size="19" fill="#f8f0d0">Let's learn new words</text><path d="M399 289L835 278L837 293L402 305Z" fill="#e0aa70"/><rect x="681" y="282" width="43" height="7" rx="3" fill="#f5dca9"/></g>
+<!-- teacher's desk and school supplies -->
+<g><path d="M540 315l252-8 6 100-263 9z" fill="#dca36c" stroke="#a36d43" stroke-width="8"/><path d="M548 333l245-7" stroke="#f4d2a4" stroke-width="6"/><path d="M562 410l-7 82M772 402l11 88" stroke="#8b5634" stroke-width="16" stroke-linecap="round"/><rect x="592" y="296" width="84" height="31" rx="6" fill="#f9e6bd" stroke="#b78352" stroke-width="5"/><path d="M608 295v-16h52v16" fill="#f9e6bd" stroke="#b78352" stroke-width="4"/><path d="M610 282l9-12 10 12 9-14 10 14" fill="none" stroke="#7f9f72" stroke-width="4"/><rect x="700" y="286" width="49" height="23" rx="4" fill="#ef7f76"/><rect x="706" y="279" width="38" height="10" rx="3" fill="#f8ca59"/></g>
+<!-- right low shelf -->
+<g><path d="M1018 344l157-4 2 84-158 5z" fill="#bd7847" stroke="#885232" stroke-width="8"/><path d="M1021 385l158-5" stroke="#77472e" stroke-width="8"/><rect x="1035" y="355" width="18" height="26" rx="3" fill="#fff0bf"/><rect x="1057" y="353" width="24" height="30" rx="3" fill="#75b8be"/><rect x="1084" y="356" width="22" height="25" rx="3" fill="#e78d80"/><rect x="1111" y="350" width="32" height="31" rx="3" fill="#e9c25c"/><path d="M1045 363h-3m27-1h-3m22 1h-4m21-3h-4" stroke="#fff" stroke-width="3"/></g>
+<!-- floor -->
+<path d="M0 405L1200 384V600H0Z" fill="url(#floor)"/><path d="M0 435L1200 415M0 482L1200 471M0 531L1200 530M0 580L1200 587" stroke="#5f3a2b" stroke-width="5" opacity=".45"/><path d="M148 405L40 600M367 401L323 600M600 398L600 600M838 392L899 600M1033 389L1175 600" stroke="#e0a06a" stroke-width="4" opacity=".35"/>
+<!-- rug shadow -->
+<ellipse cx="616" cy="505" rx="375" ry="67" fill="#322348" opacity=".2" filter="url(#shadow)"/>
+<!-- student 1, purple jumper -->
+<g id="student-left" transform="translate(305 295)">
+ <ellipse cx="0" cy="192" rx="46" ry="10" fill="#392342" opacity=".22"/>
+ <!-- legs --> <path d="M-19 130L-23 171Q-31 184-17 188L-3 187L5 143M15 131L27 166Q37 175 25 184L10 182L0 143" fill="#f3c59e" stroke="#c77f59" stroke-width="4" stroke-linejoin="round"/>
+ <path d="M-28 177q12-7 29 2l-1 13q-20 7-32-3zM9 178q15-7 28 3l-2 12q-17 5-30-4z" fill="#542487" stroke="#35165d" stroke-width="4"/>
+ <!-- raised arm --> <path d="M-27 64Q-50 38-43 4Q-40-8-29-3Q-20 1-26 18L-17 50" fill="#eeb18c" stroke="#bf755a" stroke-width="5" stroke-linecap="round"/>
+ <circle cx="-36" cy="0" r="13" fill="url(#skin)"/><path d="M-44-4q-2-12 9-12 9 2 8 12" fill="#d58d6e"/>
+ <!-- other arm --> <path d="M28 67Q48 82 39 105" fill="none" stroke="#eeb18c" stroke-width="17" stroke-linecap="round"/>
+ <!-- body --> <path d="M-31 57Q0 45 29 60L36 132Q0 146-36 132Z" fill="url(#purple)" stroke="#391663" stroke-width="5"/><path d="M-16 60L0 83L16 60" fill="#fff1d2"/><path d="M-6 85l6 9 6-9" fill="#ffcc55"/>
+ <!-- neck/head --> <rect x="-10" y="38" width="20" height="21" rx="8" fill="#e8a17b"/>
+ <ellipse cx="0" cy="14" rx="32" ry="36" fill="url(#skin)" stroke="#bd7455" stroke-width="4"/>
+ <!-- hair --> <path d="M-31 13Q-43-21-19-32Q-1-47 19-30Q39-21 30 8L19-6L8-22L-3-10L-21-12Z" fill="#a94f35" stroke="#713522" stroke-width="5" stroke-linejoin="round"/><path d="M-23-19Q-2-36 19-20" stroke="#d47751" stroke-width="6" fill="none" stroke-linecap="round"/>
+ <!-- face --> <ellipse cx="-11" cy="11" rx="4.5" ry="6" fill="#30223c"/><ellipse cx="11" cy="11" rx="4.5" ry="6" fill="#30223c"/><circle cx="-12" cy="9" r="1.8" fill="#fff"/><circle cx="10" cy="9" r="1.8" fill="#fff"/><path d="M-7 27Q0 37 9 25" fill="#fff" stroke="#9c493d" stroke-width="4" stroke-linecap="round"/><circle cx="-22" cy="23" r="6" fill="#f48c83" opacity=".7"/><circle cx="22" cy="23" r="6" fill="#f48c83" opacity=".7"/>
+</g>
+<!-- student 2, turquoise cardigan -->
+<g id="student-middle" transform="translate(606 310)">
+ <ellipse cx="0" cy="188" rx="48" ry="10" fill="#392342" opacity=".22"/>
+ <path d="M-19 127L-24 167Q-35 180-18 188L-3 186L5 144M16 129L27 166Q35 178 22 186L8 183L0 143" fill="#c98b62" stroke="#a6674d" stroke-width="4" stroke-linejoin="round"/><path d="M-28 178q13-7 29 2l-1 12q-18 8-32-3zM9 178q15-7 28 3l-2 12q-17 5-30-4z" fill="#3d306c" stroke="#2d2154" stroke-width="4"/>
+ <!-- arms raised --> <path d="M-28 65Q-44 45-41 23" fill="none" stroke="#c98b62" stroke-width="17" stroke-linecap="round"/><circle cx="-41" cy="18" r="13" fill="#d99b70"/><path d="M28 67Q45 46 41 23" fill="none" stroke="#c98b62" stroke-width="17" stroke-linecap="round"/><circle cx="41" cy="18" r="13" fill="#d99b70"/>
+ <path d="M-32 57Q0 47 31 58L37 132Q1 144-36 132Z" fill="#42b9b2" stroke="#268982" stroke-width="5"/><path d="M-18 61L0 84L17 61" fill="#fff0d5"/><path d="M-5 87L0 94L6 87" fill="#ffcb5b"/><rect x="-9" y="38" width="18" height="23" rx="7" fill="#d3946d"/>
+ <ellipse cx="0" cy="13" rx="32" ry="36" fill="#d99b70" stroke="#a9654c" stroke-width="4"/>
+ <path d="M-31 14Q-45-14-22-31Q-2-45 20-29Q41-17 30 14L22-9L8-19L-3-8L-19-11Z" fill="#4b2a2b" stroke="#2d1b2a" stroke-width="5"/><path d="M-22-18Q-3-34 18-20" stroke="#70403a" stroke-width="5" fill="none" stroke-linecap="round"/>
+ <ellipse cx="-11" cy="11" rx="4.5" ry="6" fill="#30223c"/><ellipse cx="11" cy="11" rx="4.5" ry="6" fill="#30223c"/><circle cx="-12" cy="9" r="1.8" fill="#fff"/><circle cx="10" cy="9" r="1.8" fill="#fff"/><path d="M-12 24Q0 43 13 24" fill="#fff" stroke="#8d493f" stroke-width="4" stroke-linecap="round"/><circle cx="-22" cy="23" r="6" fill="#f48c83" opacity=".65"/><circle cx="22" cy="23" r="6" fill="#f48c83" opacity=".65"/>
+</g>
+<!-- student 3, sunny jumper -->
+<g id="student-right" transform="translate(850 296)">
+ <ellipse cx="0" cy="191" rx="47" ry="10" fill="#392342" opacity=".22"/>
+ <path d="M-18 130L-24 170Q-31 183-17 188L-3 187L5 144M15 131L27 167Q35 177 23 186L8 183L0 144" fill="#ffd3ae" stroke="#c68360" stroke-width="4" stroke-linejoin="round"/><path d="M-28 178q13-7 29 2l-1 12q-19 8-32-3zM9 178q15-7 28 3l-2 12q-17 5-30-4z" fill="#4a277d" stroke="#301956" stroke-width="4"/>
+ <path d="M-27 66Q-44 81-40 104" fill="none" stroke="#f3bf9a" stroke-width="17" stroke-linecap="round"/><path d="M28 66Q49 40 42 18" fill="none" stroke="#f3bf9a" stroke-width="17" stroke-linecap="round"/><circle cx="42" cy="14" r="13" fill="#f3bf9a"/>
+ <path d="M-32 57Q0 46 31 60L36 132Q1 144-36 132Z" fill="#58328e" stroke="#3d1e70" stroke-width="5"/><path d="M-16 60L0 83L17 60" fill="#fff0d5"/><path d="M-5 86L0 93L6 86" fill="#ffcc55"/><rect x="-9" y="38" width="18" height="22" rx="7" fill="#f0b48e"/>
+ <ellipse cx="0" cy="14" rx="32" ry="36" fill="#f3bf9a" stroke="#c78261" stroke-width="4"/>
+ <path d="M-31 14Q-43-16-18-31Q4-45 24-24Q37-13 29 13L20-9L8-17L-2-7L-22-10Z" fill="#e5b14e" stroke="#ac7438" stroke-width="5"/><path d="M-20-20Q-2-36 19-18" stroke="#f5d276" stroke-width="6" fill="none" stroke-linecap="round"/>
+ <ellipse cx="-11" cy="11" rx="4.5" ry="6" fill="#30223c"/><ellipse cx="11" cy="11" rx="4.5" ry="6" fill="#30223c"/><circle cx="-12" cy="9" r="1.8" fill="#fff"/><circle cx="10" cy="9" r="1.8" fill="#fff"/><path d="M-9 26Q0 35 10 25" fill="#fff" stroke="#a65e49" stroke-width="4" stroke-linecap="round"/><circle cx="-22" cy="23" r="6" fill="#f48c83" opacity=".7"/><circle cx="22" cy="23" r="6" fill="#f48c83" opacity=".7"/>
+</g>
+<!-- foreground tiny objects and sparkles -->
+<g><path d="M68 477l110-4 2 30-111 6z" fill="#eac28a" stroke="#875333" stroke-width="6"/><path d="M86 472l22-28 26 30" fill="#ef806e" stroke="#a74e54" stroke-width="5"/><rect x="153" y="452" width="16" height="29" rx="4" fill="#ffe078" stroke="#b5803d" stroke-width="3"/><path d="M1098 454l50 5-3 60-52-4z" fill="#fff0d6" stroke="#a66d45" stroke-width="5"/><path d="M1107 469l27 3M1107 480l23 2M1106 491l16 2" stroke="#73b9a7" stroke-width="4" stroke-linecap="round"/></g>
+<g fill="#fff6ce"><path d="M274 456l5 15 15 5-15 5-5 15-5-15-15-5 15-5z"/><path d="M964 143l4 11 11 4-11 4-4 11-4-11-11-4 11-4z"/><circle cx="879" cy="352" r="5"/><circle cx="369" cy="347" r="4"/></g>
+<!-- tiny cheerful details -->
+<g font-family="Trebuchet MS, sans-serif" font-weight="bold" font-size="17"><text x="60" y="459" fill="#fff5d7" transform="rotate(-4 60 459)">ABC!</text><text x="1043" y="437" fill="#fff5d7" transform="rotate(3 1043 437)">WOW!</text></g>
+</svg>
